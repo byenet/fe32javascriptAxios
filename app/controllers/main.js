@@ -30,9 +30,8 @@ getEle("btnThemNguoiDung").addEventListener("click", function() {
 });
 
 // Them nguoi dung
-function themTestGit(){
-  console.log("huy");
-  
+function them(){
+  console.log(123);
 }
 
 function themNguoiDung() {
