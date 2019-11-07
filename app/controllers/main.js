@@ -30,6 +30,11 @@ getEle("btnThemNguoiDung").addEventListener("click", function() {
 });
 
 // Them nguoi dung
+function themTestGit(){
+  console.log("huy");
+  
+}
+
 function themNguoiDung() {
   var taiKhoan = getEle("TaiKhoan").value;
   var matKhau = getEle("MatKhau").value;
