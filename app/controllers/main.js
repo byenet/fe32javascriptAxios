@@ -29,6 +29,11 @@ getEle("btnThemNguoiDung").addEventListener("click", function() {
   getEle("tbSuccess").style.display = "none";
 });
 
+// Thêm
+function them(){
+  console.log(123);
+}
+
 // Them nguoi dung
 function themNguoiDung() {
   var taiKhoan = getEle("TaiKhoan").value;
